@@ -31,11 +31,11 @@ extern "C" {
  */
 /** Pin state for the LED on. */
 #ifndef CYBSP_LED_STATE_ON
-#define CYBSP_LED_STATE_ON          (0U)
+#define CYBSP_LED_STATE_ON          (1U)
 #endif
 /** Pin state for the LED off. */
 #ifndef CYBSP_LED_STATE_OFF
-#define CYBSP_LED_STATE_OFF         (1U)
+#define CYBSP_LED_STATE_OFF         (0U)
 #endif
 /** Pin state for when a button is pressed. */
 #ifndef CYBSP_BTN_PRESSED
